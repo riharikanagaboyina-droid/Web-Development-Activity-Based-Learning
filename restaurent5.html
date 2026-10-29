@@ -1,0 +1,74 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foodie Cafe - Reservation</title>
+    <link rel="stylesheet" href="restaurent.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+    <h1>Book Your Table</h1>
+    <nav>
+        <a href="restaurent.html">Home</a>
+        <a href="restaurent2.html">Menu</a>
+        <a href="restaurent3.html">Chefs</a>
+        <a href="restaurent4.html">Gallery</a>
+        <a href="restaurent5.html">Reservation</a>
+    </nav>
+</header>
+
+<section class="container">
+    <h2>Make a Reservation</h2>
+    <p>Fill in the form to request your table.</p>
+
+    <form action="#" method="get">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"
+               placeholder="Enter your phone number" required>
+
+        <label for="date">Reservation Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Reservation Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="guests">Number of Guests:</label>
+        <select id="guests" name="guests" required>
+            <option value="">Select guests</option>
+            <option value="1">1 Person</option>
+            <option value="2">2 People</option>
+            <option value="3">3 People</option>
+            <option value="4">4 People</option>
+            <option value="5">5 People</option>
+            <option value="6">6 People</option>
+        </select>
+
+        <label for="message">Special Requests:</label>
+        <textarea id="message" name="message"
+                  placeholder="Any special requests?"></textarea>
+
+        <button type="submit">Book a Table</button>
+
+    </form>
+</section>
+
+<footer>
+    <p>Location: Main Road, Visakhapatnam, Andhra Pradesh</p>
+    <p>Contact: +91 98765 43210</p>
+    <p>2026 Foodie Cafe</p>
+</footer>
+
+</body>
+</html>
+```
